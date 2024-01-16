@@ -8,7 +8,7 @@ In this lab we outlines the meticulous process of setting up a honeypot environm
 
 Below is a screenshot of the finished map result.
 
-![alt text](FAILED_RDP_MAP.png)
+![alt text](images/FAILED_RDP_MAP.png)
 ## Creating Honeypot Machine
 ---
 Let's start by creating a virtual machine that will be exposed to the internet. Navigating to `portal.azure.com` we can search for `Virtual machines` and click on the service. We can create a virtual machine by clicking on `Create` on the top left of the page.
