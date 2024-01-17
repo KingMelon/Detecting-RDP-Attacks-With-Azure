@@ -1,10 +1,10 @@
-# Detecting RDP Attacks With Azure
+# RDP Detection With Azure Honeynet
 ---
 - RDP Client - https://github.com/FreeRDP/FreeRDP
 - KQL Documentation - https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/
 - Geo Location API - https://ipgeolocation.io
 
-In this lab we outlines the meticulous process of setting up a honeypot environment on `Microsoft Azure`. The initial steps involve creating a Windows virtual machine accessible to the internet, configuring network security settings, and establishing a `Log Analytics workspace`. The process includes making the virtual machine easily discoverable by allowing `ICMP` traffic, monitoring security events through custom logs and `PowerShell` scripts, and extracting geographical information from failed `RDP` attempts. The culmination of these efforts is showcased through `Azure Sentinel`, Microsoft's native `Security Information and Event Management (SIEM)` solution, providing a powerful visualization of potential threats on a world map. This robust setup can give valuable insights and show potential attack patterns.
+In this lab, we outline the meticulous process of setting up a honeynet environment on `Microsoft Azure`. The initial steps involve creating a Windows virtual machine accessible to the internet, configuring network security settings, and establishing a `Log Analytics workspace`. The process includes making the virtual machine easily discoverable by allowing `ICMP` traffic, monitoring security events through custom logs and `PowerShell` scripts, and extracting geographical information from failed `RDP` attempts. The culmination of these efforts is showcased through `Azure Sentinel`, Microsoft's native `Security Information and Event Management (SIEM)` solution, providing a powerful visualization of potential threats on a world map. This robust setup can give valuable insights and show potential attack patterns.
 
 Below is a screenshot of the finished map result.
 
